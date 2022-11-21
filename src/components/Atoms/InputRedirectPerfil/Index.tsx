@@ -4,13 +4,12 @@ import { StyledInputRedirectPerfil } from "./Styled"
 export const InputRedirectPerfil = () => {
     return (
         <>
-
             <StyledInputRedirectPerfil>
                     <div className="image">
-                        <Image src={'/profile-image.jpg'} layout='fill' />
+                        <Image alt="imagem do perfil" src={'/profile-image.jpg'} fill={true} />
                     </div>
                     <div className="mask">
-                        <Image src={'/format/hexagono.png'} layout='fill' />
+                        <Image alt="decoração ao redor da imagem" src={'/format/hexagono.png'} fill={true} />
                     </div>
             </StyledInputRedirectPerfil>
         </>

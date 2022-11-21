@@ -25,7 +25,7 @@ const ForMoreThanTwoTeams = ({ placar }: PlacarGameProps) => {
                     return (
                         <div key={team.course} className="team">
                             <div className="team__logo">
-                                <Image src={team.logo} layout="fill" />
+                                <Image alt={`logo do curso ${team.course}`} src={team.logo} layout="fill" />
                             </div>
                             {applyIconVersus(index, arrayPlacar.length -1 )}
                         </div>

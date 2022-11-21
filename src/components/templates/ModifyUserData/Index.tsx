@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react";
 import TopSegment from "../../Molecules/ModifyUserData/TopSegment/Index";
 import Form from "../../Organisms/ModifyUserData/Form/Index";

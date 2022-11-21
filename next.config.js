@@ -8,7 +8,7 @@ const nextConfig = {
   async redirects() {
     return [{
       source: '/',
-      destination: '/Index',
+      destination: '/semadec',
       permanent: true,
     }, ]
   }

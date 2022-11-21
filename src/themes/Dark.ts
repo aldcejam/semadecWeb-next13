@@ -37,7 +37,7 @@ export const DarkTheme = (mainColor: string, secondaryColor:string) => {
         paper: "#211f1f",
         default: `linear-gradient(135deg, ${mainColor} 0%, ${secondaryColor} 100%)`,
       },
-      divider: "#211f1f",
+      divider: "#211f1f1a",
       action: {
         active: "#fff",
         disabled: "#000",
@@ -54,7 +54,7 @@ export const DarkTheme = (mainColor: string, secondaryColor:string) => {
       },
     },
     shape:{
-      borderRadius: "15px"
+      borderRadius: 12
     },
     shadows: [
       "none",

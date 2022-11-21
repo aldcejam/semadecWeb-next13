@@ -7,7 +7,7 @@ export const StyledTeamCard = styled("div")`
     transition: 0.3s;
     .container-logo{
         box-shadow: ${({ theme }) => theme.shadows[1]};
-        border-radius: ${({ theme }) => theme.shape.borderRadius};
+        border-radius: ${({ theme }) => theme.shape.borderRadius}px;
         padding: 10px;
         width: 90px;
         height: 90px;

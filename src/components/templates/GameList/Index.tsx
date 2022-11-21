@@ -6,6 +6,7 @@ type GameListProps = {
     day: string
 }
 const GameList = ({ day }: GameListProps) => {
+    
     const gamesDates = games.map((game) => {
         return (
             game.specification.date.toDateString().split(" ")[0]

@@ -16,7 +16,7 @@ const HomePageCards = () => {
             <div className="grid-top">
                 <HomePageCard link='/' title='equipes por curso' illustration={<IllustrationCourse />} />
                 <HomePageCard link='/' title='jogos esportivos' illustration={<IllustrationJogosEsportivos />} />
-                <HomePageCard link='/findGameBySport?curso=informatica' title='jogos do seu curso' illustration={<IllustrationJogosDoSeuCurso />} />
+                <HomePageCard link='/semadec/findGame?curso=informatica' title='jogos do seu curso' illustration={<IllustrationJogosDoSeuCurso />} />
             </div>
             <div className="grid-left">
                 <HomePageCard link='/' title='recordes desta edição' illustration={<IllustrationRecordesDestaEdicao />} />

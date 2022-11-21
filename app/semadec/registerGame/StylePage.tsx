@@ -1,17 +1,8 @@
 import { styled } from "@mui/material";
 
-export const StyledRegisterGame = styled("div")`
-.style-background{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        border-bottom: 10px solid ${props => props.theme.palette.secondary.main};
-        border-right: 10px solid ${props => props.theme.palette.secondary.main};
-        border-left: 10px solid ${props => props.theme.palette.primary.main};
-        border-top: 10px solid ${props => props.theme.palette.primary.main};
-        filter: blur(40px);
-        border-radius: 45px;
-}
+export const StylePage = styled("div")`
+    display: flex;
+    justify-content: center;
     .container{
         z-index: 20;
         width: 100%;

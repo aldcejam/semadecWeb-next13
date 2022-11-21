@@ -1,7 +1,7 @@
 import {styled} from "@mui/material/styles";
 
 
-const StyledProfile = styled("div")`
+export const StylePage = styled("div")`
   position: absolute;
   min-height: 100%;
   width: 100%;
@@ -13,4 +13,3 @@ const StyledProfile = styled("div")`
   }
 `;
 
-export default StyledProfile

@@ -7,7 +7,7 @@ const Navegation = () => {
         <StyledNavegation>
             <ul className="container">
                 <div className="item">
-                    <ButtonRedirectProfile href="/profile" />
+                    <ButtonRedirectProfile/>
                 </div>
                 <div className="item">
                     <RedirectIcon

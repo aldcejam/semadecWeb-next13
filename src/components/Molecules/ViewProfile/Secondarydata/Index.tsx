@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { useState } from "react"
 import { StyledSecondarydata } from "./Styled"
@@ -19,7 +21,7 @@ const Secondarydata = ({academicEmail, personalcEmail}:SecondarydataProps) => {
                 onClick={() => toggleButtonMoreInformations()}
             >
                 <div className={`angle-botton--icon ${buttonMoreInformations ? "rotate-angle-button" : ""}`}>
-                    <Image src={'/Icons/angle-botton.svg'} layout='fill' />
+                    <Image alt="" src={'/Icons/angle-botton.svg'} layout='fill' />
                 </div>
                 <p>Mais Informação</p>
             </div>

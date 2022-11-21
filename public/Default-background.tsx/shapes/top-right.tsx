@@ -3,7 +3,7 @@ import { styled } from "@mui/material";
 export const TopRight = () => {
     const Style = styled("div")`
     position: absolute;
-    width: clamp(400px, 50vw, 900px);
+    width: clamp(500px, 50vw, 600px);
     z-index: 1;
     top: -140px;
     right: -60px;

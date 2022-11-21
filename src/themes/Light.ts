@@ -49,7 +49,7 @@ export const LightTheme = (mainColor: string, secondaryColor:string) => {
       
     },
     shape:{
-      borderRadius: "15px"
+      borderRadius: 12
     },
     breakpoints: {
       values: {

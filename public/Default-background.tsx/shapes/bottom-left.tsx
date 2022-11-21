@@ -3,17 +3,18 @@ import { styled } from "@mui/material";
 export const BottomLeft = () => {
     const Style = styled("div")`
     position: absolute;
-    width: clamp(400px, 45vw, 900px);
+    width: clamp(400px, 45vw, 400px);
     z-index: 1;
     bottom: -140px;
     left: -60px;
 
     .cls-1 {
-      fill: ${({ theme }) => theme.palette.background.paper};
-      filter: ${(props) =>
+        padding: 10px;
+        fill: ${({ theme }) => theme.palette.background.paper};
+        filter: ${(props) =>
             props.theme.palette.mode === "dark"
-                ? "drop-shadow( 3px 3px 4px rgba(0, 0, 0, .7))"
-                : "drop-shadow( 3px 3px 6px #808080ad)"};
+            ? "drop-shadow( 3px 3px 4px rgba(0, 0, 0, .7))"
+            : "drop-shadow( 3px 3px 6px #808080ad)"};
     }
   `;
 

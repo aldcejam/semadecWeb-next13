@@ -6,8 +6,11 @@ export type PontuationsGameProps = {
     position: number, 
     score: number
 }
+export type gameSituationProps = {
+    gameSituation: "em andamento" | "pre-cadastrado",
+}
 
-export type DateForRegistrationProps = {
+export type DateForRegistrationProps = gameSituationProps & {
     teams: Array<TeamsProps>,
     sport: {
         sportName: string;
@@ -18,7 +21,6 @@ export type DateForRegistrationProps = {
     },
     userSelectedCategory: string,
     userSelectedCategoryGenre: string,
-    gameSituation: string,
     gameDate: Date,
     pontuationsGame: Array<PontuationsGameProps>,
 }

@@ -3,9 +3,9 @@ import { styled } from "@mui/material";
 export const BottomRight = () => {
     const Style = styled("div")`
     position: absolute;
-    bottom: -200px;
+    bottom: -220px;
     right: -120px;
-    width: clamp(700px,70vw, 1000px);
+    width: clamp(700px,70vw, 800px);
     z-index: 3;
     .cls-1 {
       fill: ${({ theme }) => theme.palette.primary.main};

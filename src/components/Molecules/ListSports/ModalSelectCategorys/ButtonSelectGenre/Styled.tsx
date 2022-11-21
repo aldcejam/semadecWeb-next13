@@ -6,7 +6,7 @@ export const StyledButtonSelectGenre = styled("article")`
   padding: 10px;
   border-top: 2px solid ${(props) => props.theme.palette.primary.main};
   border-bottom: 2px solid ${(props) => props.theme.palette.secondary.main};
-  border-radius: ${(props) => props.theme.shape.borderRadius};
+  border-radius: ${(props) => props.theme.shape.borderRadius}px;
   box-shadow: inset -5px -5px 10px
   ${(props) => props.theme.palette.secondary.main}3f;
   cursor: pointer;
@@ -18,7 +18,7 @@ export const StyledButtonSelectGenre = styled("article")`
     height: 100%;
     top: 0;
     left: 0;
-    border-radius: ${(props) => props.theme.shape.borderRadius};
+    border-radius: ${(props) => props.theme.shape.borderRadius}px;
     box-shadow: inset 5px 5px 10px
     ${(props) => props.theme.palette.primary.main}3f;
     

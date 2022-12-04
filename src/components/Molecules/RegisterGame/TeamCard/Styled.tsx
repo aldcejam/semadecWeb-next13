@@ -14,7 +14,7 @@ export const StyledTeamCard = styled("div")`
         transition: 0.6s;
         
         &.selected{
-            transition: 0.6s;
+            transition: 0.3s;
             background-color: ${({ theme }) => theme.palette.background.paper};
             box-shadow: 0px 3px 10px 2px ${({ theme }) => theme.palette.secondary.main};
         }

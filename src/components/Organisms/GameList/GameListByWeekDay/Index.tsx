@@ -1,4 +1,4 @@
-import GameCard from "../../../templates/GameCard/Index"
+import GameCard from "../../../templates/GameCard"
 import { GameProps } from "../../../../Types/GameList/TypesTeams"
 import { StyledGameListByWeekDay } from "./Styled"
 

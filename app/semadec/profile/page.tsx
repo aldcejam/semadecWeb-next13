@@ -3,8 +3,8 @@
 import PageTitle from '../../../src/components/Atoms/PageTitle/Index'
 import { ContainerContentPage } from '../../globals'
 import { StylePage } from './StylePage'
-import { ViewProfile } from '../../../src/components/templates/ViewProfile/Index'
-import ModifyUserData from '../../../src/components/templates/ModifyUserData/Index'
+import { ViewProfile } from '../../../src/components/templates/ViewProfile'
+import ModifyUserData from '../../../src/components/templates/ModifyUserData'
 
 
 const Page = () => {

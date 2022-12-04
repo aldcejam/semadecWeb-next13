@@ -2,9 +2,7 @@
 
 import { ContainerGlobal, ContainerPage } from '../globals';
 
-
-import DefaultBackground from '../../public/Default-background.tsx/Index';
-import SideBarPage from '../../src/components/templates/Sidebar/Index';
+import SideBarPage from '../../src/components/templates/Sidebar';
 import SettingsButtons from '../../src/components/Molecules/SettingsButtons/Index';
 import { ToastContainer } from 'react-toastify';
 
@@ -19,24 +17,10 @@ export default function RootLayout({
     
     return (
         <>
-
             {/*  */}
-            <DefaultBackground />
             <ContainerGlobal>
                 <SideBarPage />
                 <SettingsButtons />
-                <ToastContainer
-                    position="top-right"
-                    autoClose={2000}
-                    hideProgressBar={false}
-                    newestOnTop={false}
-                    closeOnClick
-                    rtl={false}
-                    pauseOnFocusLoss
-                    draggable
-                    pauseOnHover
-                    theme="colored"
-                />
                 {/* Same as */}
             </ContainerGlobal>
             {/*  */}

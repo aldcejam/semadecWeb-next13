@@ -6,11 +6,11 @@ import PageTitle from "../../../src/components/Atoms/PageTitle/Index"
 import SubmitButton from "../../../src/components/Atoms/SubmitButton.tsx/Index"
 import AvailableSports from "../../../src/components/Organisms/RegisterGame/AvailableSports/Index"
 import AvailableTeams from "../../../src/components/Organisms/RegisterGame/AvailableTeams/Index"
-import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys/Index"
+import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys"
 import { ContainerContentPage } from "../../globals"
 import { StylePage } from "./StylePage"
 import { DateForRegistrationProps } from "../../../src/Types/RegisterGame/TypesDateForRegistration"
-import ModalToConfigGame from "../../../src/components/templates/ModalToConfigGame/Index"
+import ModalToConfigGame from "../../../src/components/templates/ModalToConfigGame"
 
 
 export default function Page() {

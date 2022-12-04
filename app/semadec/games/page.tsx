@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation'
 import PageTitle from '../../../src/components/Atoms/PageTitle/Index'
 import { ContainerContentPage } from '../../globals'
 import { StylePage } from './StylePage'
-import GameList from '../../../src/components/templates/GameList/Index'
+import GameList from '../../../src/components/templates/GameList'
 
 
 const Page = () => {

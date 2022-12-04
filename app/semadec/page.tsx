@@ -2,7 +2,7 @@
 
 import PageTitle from '../../src/components/Atoms/PageTitle/Index'
 import { ContainerContentPage } from '../globals'
-import HomePageCards from '../../src/components/templates/HomePageCards/Index'
+import HomePageCards from '../../src/components/templates/HomePageCards'
 
 const Page = () => {
 

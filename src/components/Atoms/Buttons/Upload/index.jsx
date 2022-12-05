@@ -4,7 +4,7 @@ import {
     StyledButtonUpload,
     ThumbsContainer,
 } from "./Styled";
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import { useDropzone } from "react-dropzone";
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { uniqueId } from "lodash";
@@ -38,9 +38,7 @@ const ButtonUpload = () => {
             },
         });
 
-    useEffect(() => {
-        return () => files.forEach((file) => URL.revokeObjectURL(file.preview));
-    }, []);
+    
 
     const CleanFiles = () => {
         setFiles([]);

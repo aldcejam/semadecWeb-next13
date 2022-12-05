@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, useEffect } from "react"
 import { DateForRegistrationProps, PontuationsGameProps } from "../../../../Types/RegisterGame/TypesDateForRegistration";
 import SelectPontuations from "../../../Atoms/ModalToConfigGame/SelectPontuations/Index"

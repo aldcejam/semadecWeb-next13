@@ -1,13 +1,13 @@
 "use client"
 
 import { useState } from "react";
-import PageTitle from "../../../src/components/Atoms/PageTitle";
 import ListSports from "../../../src/components/templates/ListSports";
 import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
 import { dataForSearchBySportCategoriesProps } from "../../../src/components/templates/ModalSelectCategorys/TypesDataForResearchGame";
 import { ContainerContentPage } from "../../globals";
 import { StylePage } from "./StylePage";
 import { useSearchParams } from 'next/navigation'
+import PageTitle from "../../../src/components/Atoms/PageTitle";
 
 
 const Page = ()=>{

@@ -18,7 +18,4 @@ export const StyledPage = styled("div")`
     display: flex;
 `
 
-export const AuthenticationContainer = styled("div")`
-
-`
 

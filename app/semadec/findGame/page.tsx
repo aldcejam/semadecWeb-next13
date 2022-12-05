@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react";
-/* import AngleLine from "../../../public/format/AngleLine"; */
 import PageTitle from "../../../src/components/Atoms/PageTitle/Index";
 import ListSports from "../../../src/components/templates/ListSports";
 import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
@@ -49,8 +48,6 @@ const Page = ()=>{
                 <StylePage className="box-page">
                     <div className="container">
                         <div className="decoration"/>
-                        {/* <AngleLine />
-                        <AngleLine /> */}
                         <ListSports
                             ToggleModal={ToggleModal}
                             setDataForSearchBySportCategories={setDataForSearchBySportCategories}

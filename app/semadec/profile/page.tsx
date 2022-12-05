@@ -17,7 +17,7 @@ const Page = () => {
             />
 
             <ContainerContentPage>
-                <StylePage className='box-page'>
+                <StylePage>
                     <ViewProfile screen='profileUser' />
                     <ModifyUserData />
                 </StylePage>

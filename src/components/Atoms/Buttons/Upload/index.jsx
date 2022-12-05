@@ -4,7 +4,7 @@ import {
 } from "./Styled";
 import { useEffect, useState } from "react";
 import { useDropzone } from "react-dropzone";
-import AngleBotton from "../../../../public/format/Angle-botton";
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { uniqueId } from "lodash";
 import { CircularProgressbar } from "react-circular-progressbar";
 import Image from "next/image";
@@ -64,9 +64,7 @@ const ButtonUpload = () => {
                 <input name="profilePic" {...getInputProps()} />
 
                 <div className="label">
-                    <div className="container-icon-angle-botton">
-                        <AngleBotton />
-                    </div>
+                        <ChevronRightIcon className="icon"/>
                     {RederizeUserMovimentSituation()}
                 </div>
             </div>
@@ -75,7 +73,7 @@ const ButtonUpload = () => {
                     files.map((file) => (
                         <div className="data-image-upload" key={file.id}>
                             <div className="data-image-upload__thumb">
-                                <Image layout="fill"
+                                <Image alt="icon" fill
                                     src={file.preview}
                                     onLoad={() => {
                                         URL.revokeObjectURL(file.preview);
@@ -102,7 +100,7 @@ const ButtonUpload = () => {
                             </div>
                         </div>
                     ))
-                    }
+                }
             </ThumbsContainer>
         </StyledButtonUpload>
     );

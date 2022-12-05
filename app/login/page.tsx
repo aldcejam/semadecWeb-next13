@@ -1,16 +1,17 @@
 "use client"
 
+import AuthenticationTemplate from "../../src/components/templates/AuthenticationTemplate"
 import LoginPresentation from "../../src/components/templates/LoginPresentation"
-import { StyledPage, AuthenticationContainer, ContainerLogin } from "./StyledPage"
+import { StyledPage, ContainerLogin } from "./StyledPage"
 
 
 const Page = () => {
+
     return (
         <ContainerLogin>
             <StyledPage>
                 <LoginPresentation />
-                <AuthenticationContainer>
-                </AuthenticationContainer>
+                <AuthenticationTemplate/>
             </StyledPage>
         </ContainerLogin>
 

@@ -82,7 +82,7 @@ export default function Page() {
                     <div className="style-background" />
                     <div className="container">
 
-                        <div className="contant">
+                        <div className="content">
                             <AvailableTeams
                                 setDataForRegistration={setDataForRegistration}
                                 dataForRegistration={dataForRegistration} />

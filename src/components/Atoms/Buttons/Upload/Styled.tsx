@@ -1,11 +1,12 @@
-import {styled} from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 
 type TypesStyledButtonUpload = {
   dragaccept: "true" | "false";
   dragreject: "true" | "false";
 };
 
-export const StyledButtonUpload = styled("div")<TypesStyledButtonUpload>(({ dragaccept, dragreject, ...props }) => `
+export const StyledButtonUpload = styled("div")<TypesStyledButtonUpload>(
+  ({ dragaccept, dragreject, ...props }) => `
   border: 2px solid ${
     dragaccept == "true"
       ? props.theme.palette.success.main
@@ -17,7 +18,7 @@ export const StyledButtonUpload = styled("div")<TypesStyledButtonUpload>(({ drag
   outline: none;
   transition: border 0.24s ease-in-out;
   width: 100%;
-  padding: 20px 20px;
+  padding: 3px 20px 12px;
   display: flex;
   align-items: center;
   background: ${props.theme.palette.primary.main}36;
@@ -57,24 +58,20 @@ export const StyledButtonUpload = styled("div")<TypesStyledButtonUpload>(({ drag
     };
 
     }
-    .container-icon-angle-botton {
-      width: 23px;
-      height: 23px;
-      .svg-angle-botton {
-        transform: rotate(180deg);
-        .cls-1 {
-          transition: 0.3s;
-          fill: ${
+      .icon{
+      transform: rotate(-90deg);
+      font-size: 3rem;
+          color: ${
             dragaccept == "true"
               ? props.theme.palette.success.main
               : dragreject == "true"
               ? props.theme.palette.error.main
               : props.theme.palette.text.primary
           };
-        }
+
       }
     }
-  }
+  
 `
 );
 

@@ -7,20 +7,7 @@ export const StylePage = styled("div")`
         z-index: 20;
         width: 100%;
         margin-top: 30px;
-        .decorative-left,.decorative-right{
-            position: absolute;
-            top: 0;
-            width: 20%;
-            height: 100%;
-            ${props => props.theme.breakpoints.down("md")}{
-                display: none;
-            }
-        }
-        .decorative-right{
-            right: 0;
-            transform: scaleX(-1);
-        }
-        .contant{
+        .content{
             display: flex;
             justify-content: center;
             flex-wrap: wrap;

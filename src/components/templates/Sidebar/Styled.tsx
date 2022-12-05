@@ -11,7 +11,7 @@ export const StyledSidebarPage = styled("nav")<IStyledSidebarPage>(({ menuisacti
   position: fixed;
   z-index: 99;
   margin: auto;
-  border-radius: 7px;
+  border-radius: ${props.theme.shape.borderRadius}px;
   background-color: ${props.theme.palette.background.paper};
   transition: 0.5s;
   overflow-x: hidden;
@@ -38,7 +38,7 @@ export const StyledSidebarPage = styled("nav")<IStyledSidebarPage>(({ menuisacti
     position: absolute;
     left: 0;
     top: 0;
-    border-radius: 7px;
+    border-radius: ${props.theme.shape.borderRadius}px;
     width: 100%;
     height: 100%;
     transition: all 0.3s ease;

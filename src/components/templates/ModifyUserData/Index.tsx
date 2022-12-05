@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react";
-import TopSegment from "../../Molecules/ModifyUserData/TopSegment/Index";
-import Form from "../../Organisms/ModifyUserData/Form/Index";
+import TopSegment from "../../Molecules/ModifyUserData/TopSegment";
+import Form from "../../Organisms/ModifyUserData/Form";
 import { StyledModifyUserData } from "./Styled";
 
 const ModifyUserData = () => {

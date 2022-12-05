@@ -41,7 +41,7 @@ export const LightTheme = (mainColor: string, secondaryColor:string) => {
         paper: "#dbdbdb",
         default: `linear-gradient(135deg, ${mainColor} 0%, ${secondaryColor} 100%)`,
       },
-      divider: "#d9d9d9",
+      divider: "#d9d9d91a",
       action: {
         active: "#000",
         disabled: "#fff",

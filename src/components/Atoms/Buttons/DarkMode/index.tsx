@@ -1,7 +1,7 @@
 import { StylesButtonDarkMode, StylesButtonDarkModeSelect } from "./Styled"
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import LightModeIcon from '@mui/icons-material/LightMode';
-import { useThemeContext } from "../../../contexts/ThemeContext";
+import { useThemeContext } from "../../../../contexts/ThemeContext";
 
 
 const ButtonDarkMode = () => {

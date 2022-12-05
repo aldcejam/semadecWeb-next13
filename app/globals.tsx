@@ -9,7 +9,6 @@ export const ContainerContentPage = styled("div")`
   max-height: 82.3;
   overflow-y: auto;
   overflow-x: hidden;
-  padding-right: 10px;
   border-radius: ${props => props.theme.shape.borderRadius}px;
   
   ${props => props.theme.breakpoints.down("sm")} {
@@ -37,35 +36,23 @@ export const ContainerContentPage = styled("div")`
       width: 100%;
       border-radius: ${props => props.theme.shape.borderRadius}px;
       overflow: hidden;
-      box-shadow: inset 40px 40px 81px ${props => props.theme.palette.primary.main}a1, inset -40px -40px 81px ${props => props.theme.palette.secondary.main}61;
+      /* background-color: #ffffff16; */
       
+      box-shadow: inset 20px 20px 81px ${props => props.theme.palette.primary.main}16, inset -20px -20px 81px ${props => props.theme.palette.secondary.main}16;
       
-      /* .border{
-        position: absolute;
-        min-height: 100%;
-        width: 100%;
-        z-index: 10;
-        border-radius: ${props => props.theme.shape.borderRadius}px;
-        border-bottom: 10px solid ${props => props.theme.palette.secondary.main};
-        border-right: 10px solid ${props => props.theme.palette.secondary.main};
-        border-left: 10px solid ${props => props.theme.palette.primary.main};
-        border-top: 10px solid ${props => props.theme.palette.primary.main};
-        border-radius: ${props => props.theme.shape.borderRadius}px;
-      } */
-        
-        .decoration{
+      &::after{
+          content: "";
           position: absolute;
-          z-index: 0;
-          &::after{
-            content: "";
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            width: 100%;
-            min-height: 100%;
-            backdrop-filter: blur(5px);
-        }
+          top: 0;
+          right: 0;
+          left: 0;
+          width: 100%;
+          min-height: 100%;
+          backdrop-filter: blur(10px);
+      }
+      .decoration{
+        position: absolute;
+        z-index: 0;
         }
         .content{
           position: relative;
@@ -74,7 +61,7 @@ export const ContainerContentPage = styled("div")`
         }
     }
 `
-;
+  ;
 
 export const ContainerPage = styled("div")`
   position: absolute;

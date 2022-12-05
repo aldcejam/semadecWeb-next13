@@ -9,6 +9,7 @@ type SelectPontuationsProps = {
     dataForRegistration: DateForRegistrationProps;
     setDataForRegistration: React.Dispatch<React.SetStateAction<DateForRegistrationProps>>
 }
+
 const PontuationByPosition = ({ dataForRegistration, setDataForRegistration }: SelectPontuationsProps) => {
     const [positionsWithScore, setPositionsWithScore] = useState(2)
 

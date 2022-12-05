@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react";
-import PageTitle from "../../../src/components/Atoms/PageTitle/Index";
+import PageTitle from "../../../src/components/Atoms/PageTitle";
 import ListSports from "../../../src/components/templates/ListSports";
 import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
 import { dataForSearchBySportCategoriesProps } from "../../../src/components/templates/ModalSelectCategorys/TypesDataForResearchGame";

@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { toast } from "react-toastify"
-import PageTitle from "../../../src/components/Atoms/PageTitle/Index"
+import PageTitle from "../../../src/components/Atoms/PageTitle"
 import SubmitButton from "../../../src/components/Atoms/SubmitButton.tsx/Index"
 import AvailableSports from "../../../src/components/Organisms/RegisterGame/AvailableSports/Index"
 import AvailableTeams from "../../../src/components/Organisms/RegisterGame/AvailableTeams/Index"

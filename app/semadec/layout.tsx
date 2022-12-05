@@ -2,11 +2,9 @@
 
 import { ContainerGlobal, ContainerPage } from '../globals';
 
-import SideBarPage from '../../src/components/templates/Sidebar';
+import SideBarPage from '../../src/components/templates/SidebarPage';
 import SettingsButtons from '../../src/components/Molecules/SettingsButtons/Index';
-import { ToastContainer } from 'react-toastify';
 
-import 'react-toastify/dist/ReactToastify.css';
 
 
 export default function RootLayout({

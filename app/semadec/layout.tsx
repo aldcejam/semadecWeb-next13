@@ -4,8 +4,8 @@ import { ContainerGlobal, ContainerPage } from '../globals';
 
 /* import SidebarPage from '../../src/components/templates/SidebarPage/Index'; */
 import SettingsButtons from '../../src/components/Molecules/SettingsButtons/Index';
-
-
+import { StyledSidebar } from '../../src/components/templates/Sidebar/Styled';
+import Sidebar from '../../src/components/templates/Sidebar/Index';
 
 export default function RootLayout({
     children,
@@ -18,6 +18,7 @@ export default function RootLayout({
             {/*  */}
             <ContainerGlobal>
                 {/* <SidebarPage /> */}
+                <Sidebar/>
                 <SettingsButtons />
                 {/* Same as */}
             </ContainerGlobal>

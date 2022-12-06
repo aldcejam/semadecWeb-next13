@@ -8,8 +8,6 @@ import GameList from '../../../src/components/templates/GameList/Index'
 
 
 const Page = () => {
-
-
     const searchParams = useSearchParams()
     const sportSelected = searchParams.get('sportSelected')
     const categoryGenre = searchParams.get('categoryGenre')

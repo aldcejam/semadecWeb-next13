@@ -17,7 +17,7 @@ export default function RootLayout({
         <>
             {/*  */}
             <ContainerGlobal>
-                <SidebarPage />
+                {/* <SidebarPage /> */}
                 <SettingsButtons />
                 {/* Same as */}
             </ContainerGlobal>

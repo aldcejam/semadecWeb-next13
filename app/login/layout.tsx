@@ -9,10 +9,7 @@ export default function RootLayout({
     return (
         <>
             <title>Login</title>
-
                 {children}
-
-
         </>
     )
 

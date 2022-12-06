@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import MenuBurguer from "../../Atoms/MenuBurguer/Index";
+import RedirectIcon from "../../Molecules/Sidebar/RedirectIcon/Index";
 import { StyledSidebar } from "./Styled";
 
 
@@ -11,6 +12,14 @@ const Sidebar = () => {
     return (
         <StyledSidebar menuisactive={menuisative.toString()}>
             <MenuBurguer menuisactive={menuisative} setmenuisative={setmenuisative} />
+            <div className="redirect-home">
+                <RedirectIcon
+                href="/"
+                icon="/Icons/home.svg"
+                text="Home"
+                alt="icone de redirecionamento"
+                />
+            </div> 
         </StyledSidebar>
     )
 }

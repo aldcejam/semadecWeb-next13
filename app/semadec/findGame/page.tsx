@@ -9,7 +9,7 @@ import { ContainerContentPage } from "../../globals";
 import { StylePage } from "./StylePage";
 import { useSearchParams } from 'next/navigation'
 
-const Page = ()=>{
+const Page = () => {
 
     const searchParams = useSearchParams()
     const course = searchParams.get('curso')
@@ -34,7 +34,11 @@ const Page = ()=>{
         const category = dataForSearchBySportCategories.userSelectedCategory
         const categoryGenre = dataForSearchBySportCategories.userSelectedCategoryGenre
         const sportSelected = dataForSearchBySportCategories.sport.sportName
-        const redirectUrl = `games?${category ? `category=${category}&` : ""}${categoryGenre ? `categoryGenre=${categoryGenre}&` : ""}${sportSelected ? `sportSelected=${sportSelected}` : ""}`
+        const redirectUrl = `
+        games?${category ? `category=${category}&` : ""}
+        ${categoryGenre ? `categoryGenre=${categoryGenre}&` : ""}
+        ${sportSelected ? `sportSelected=${sportSelected}` : ""}
+        `
 
         window.location.href = redirectUrl
     }
@@ -46,11 +50,11 @@ const Page = ()=>{
             <ContainerContentPage>
                 <StylePage className="box-page">
                     <div className="container">
-                        <div className="decoration"/>
+                        <div className="decoration" />
                         <ListSports
                             ToggleModal={ToggleModal}
                             setDataForSearchBySportCategories={setDataForSearchBySportCategories}
-                            course={course? course : "não há curso selecionado no seu perfil"} />
+                            course={course ? course : "não há curso selecionado no seu perfil"} />
                         <ModalSelectCategorys
                             ToggleModal={ToggleModal}
                             modalIsOpen={modalIsOpen}

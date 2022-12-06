@@ -12,7 +12,11 @@ const GameList = ({ day }: GameListProps) => {
             game.specification.date.toDateString().split(" ")[0]
         )
     })
-    const gamesDatesWithoutRepeat = [...new Set(gamesDates)]
+
+    //remove dates repeat
+    const gamesDatesWithoutRepeat = gamesDates.filter((date, index) => {
+        return gamesDates.indexOf(date) === index
+    })
 
     return (
         <>

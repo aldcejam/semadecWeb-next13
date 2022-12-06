@@ -1,6 +1,6 @@
 import { GameProps } from "../../../Types/GameList/TypesTeams"
 
-type typegames = GameProps[] &{}
+type typegames = GameProps[]
 export const games:typegames = [
     {
         placar: [

@@ -1,3 +1,5 @@
+"use client"
+
 import Modal from '@mui/material/Modal';
 import SubmitButton from '../../Atoms/SubmitButton.tsx/Index';
 import Categorys from '../../Organisms/ModalSelectCategorys/Categorys/Index';

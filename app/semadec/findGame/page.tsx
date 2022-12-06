@@ -1,6 +1,6 @@
 "use client"
 
-import PageTitle from '../../../src/components/Atoms/PageTitle'
+/* import PageTitle from '../../../src/components/Atoms/PageTitle' */
 import { useState } from "react";
 import ListSports from "../../../src/components/templates/ListSports";
 import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
@@ -40,8 +40,8 @@ const Page = ()=>{
     }
 
     return (
-        <>
-            <PageTitle title={`Encontrar jogo`} />
+        <>{/* 
+            <PageTitle title={`Encontrar jogo`} /> */}
 
             <ContainerContentPage>
                 <StylePage className="box-page">

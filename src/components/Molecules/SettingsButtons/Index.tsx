@@ -1,11 +1,11 @@
-import ButtonDarkMode from "../../Atoms/Buttons/DarkMode/Index"
+/* import ButtonDarkMode from "../../Atoms/Buttons/DarkMode/Index" */
 import SettingButton from "../../Atoms/SettingButton/Index"
 import { StyledSettingsButtons } from "./Styled"
 
 const SettingsButtons = () => {
     return (
         <StyledSettingsButtons>
-            <ButtonDarkMode/>
+            {/* <ButtonDarkMode/> */}
             <SettingButton/>
         </StyledSettingsButtons>
     )

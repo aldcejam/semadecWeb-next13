@@ -14,7 +14,7 @@ const Navegation = () => {
                 <div className="item">
                     <RedirectIcon
                         href="/"
-                        text="Home"
+                        text="sair"
                         alt="icone de redirecionamento"
                         icon="/Icons/log-out.svg"
                     />

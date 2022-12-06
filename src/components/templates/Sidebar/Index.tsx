@@ -15,13 +15,13 @@ const Sidebar = () => {
             <MenuBurguer menuisactive={menuisative} setmenuisative={setmenuisative} />
             <div className="redirect-home">
                 <RedirectIcon
-                href="/"
-                icon="/Icons/home.svg"
-                text="Home"
-                alt="icone de redirecionamento"
+                    href="/"
+                    icon="/Icons/home.svg"
+                    text="Home"
+                    alt="icone de redirecionamento"
                 />
-                <Navegation />
-            </div> 
+            </div>
+            <Navegation />
         </StyledSidebar>
     )
 }

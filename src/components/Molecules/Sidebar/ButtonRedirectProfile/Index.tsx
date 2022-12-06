@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link"
 import { InputRedirectPerfil } from "../../../Atoms/InputRedirectPerfil/Index"
 import { StyledButtonRedirectProfile } from "./Styled"

@@ -1,13 +1,14 @@
 "use client"
 
 import { useSearchParams } from 'next/navigation'
-/* import PageTitle from '../../../src/components/Atoms/PageTitle' */
+import PageTitle from '../../../src/components/Atoms/PageTitle'
 import { ContainerContentPage } from '../../globals'
 import { StylePage } from './StylePage'
-/* import GameList from '../../../src/components/templates/GameList' */
+import GameList from '../../../src/components/templates/GameList'
 
 
 const Page = () => {
+
 
     const searchParams = useSearchParams()
     const sportSelected = searchParams.get('sportSelected')
@@ -27,11 +28,11 @@ const Page = () => {
 
     return (
         <>
-            {/* <PageTitle title={
+            <PageTitle title={
                 `${sportSelected ? sportSelected : "esporte não definido"}
                 ${category ? ` - ${category}` : ""}
                 `}
-            /> */}
+            />
 
             <ContainerContentPage>
                 <StylePage className="box-page">
@@ -39,9 +40,9 @@ const Page = () => {
                     <div className="border" />
                     <div className="content">
                         <h2>{categoryGenre}</h2>
-                        {/* {ListWeekday.map((day) => (
+                        {ListWeekday.map((day) => (
                             <GameList key={day} day={day} />
-                        ))} */}
+                        ))}
                     </div>
                 </StylePage>
             </ContainerContentPage>

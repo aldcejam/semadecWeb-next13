@@ -1,7 +1,7 @@
 "use client"
 
-/* import PageTitle from '../../src/components/Atoms/PageTitle'
- */import { ContainerContentPage } from '../globals'
+import PageTitle from '../../src/components/Atoms/PageTitle'
+import { ContainerContentPage } from '../globals'
 import HomePageCards from '../../src/components/templates/HomePageCards'
 
 const Page = () => {
@@ -9,10 +9,10 @@ const Page = () => {
 
   return (
     <>
-      {/* <PageTitle title={`Bem vindo `} /> */}
+      <PageTitle title={`Bem vindo `} />
 
       <ContainerContentPage>
-        {/* <HomePageCards /> */}
+        <HomePageCards />
       </ContainerContentPage>
     </>
   )

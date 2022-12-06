@@ -1,9 +1,9 @@
 "use client"
 
-/* import PageTitle from '../../../src/components/Atoms/PageTitle' */
+import PageTitle from '../../../src/components/Atoms/PageTitle'
 import { useState } from "react";
-/* import ListSports from "../../../src/components/templates/ListSports"; */
-/* import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys"; */
+import ListSports from "../../../src/components/templates/ListSports";
+import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
 import { dataForSearchBySportCategoriesProps } from "../../../src/components/templates/ModalSelectCategorys/TypesDataForResearchGame";
 import { ContainerContentPage } from "../../globals";
 import { StylePage } from "./StylePage";
@@ -34,24 +34,26 @@ const Page = () => {
         const category = dataForSearchBySportCategories.userSelectedCategory
         const categoryGenre = dataForSearchBySportCategories.userSelectedCategoryGenre
         const sportSelected = dataForSearchBySportCategories.sport.sportName
-        const redirectUrl = `
-        games?${category ? `category=${category}&` : ""}
-        ${categoryGenre ? `categoryGenre=${categoryGenre}&` : ""}
-        ${sportSelected ? `sportSelected=${sportSelected}` : ""}
-        `
+        const redirectUrl = `games?${category ?
+            `category=${category}&` : ""}
+            ${categoryGenre ?
+                `categoryGenre=${categoryGenre}&` : ""}
+            ${sportSelected ?
+                `sportSelected=${sportSelected}` : ""}
+            `
 
         window.location.href = redirectUrl
     }
 
     return (
-        <>{/* 
-            <PageTitle title={`Encontrar jogo`} /> */}
+        <>
+            <PageTitle title={`Encontrar jogo`} />
 
             <ContainerContentPage>
                 <StylePage className="box-page">
                     <div className="container">
                         <div className="decoration" />
-                        {/* <ListSports
+                        <ListSports
                             ToggleModal={ToggleModal}
                             setDataForSearchBySportCategories={setDataForSearchBySportCategories}
                             course={course ? course : "não há curso selecionado no seu perfil"} />
@@ -61,7 +63,7 @@ const Page = () => {
                             data={dataForSearchBySportCategories}
                             setdata={setDataForSearchBySportCategories}
                             Submit={Submit}
-                        /> */}
+                        />
                     </div>
                 </StylePage>
             </ContainerContentPage>

@@ -1,7 +1,7 @@
 import { StyledForm } from "./Styled"
 import { SubmitHandler, useForm } from "react-hook-form"
-import InputIdentifier from "../../../Atoms/Inputs/Identifier";
-import InputPassword from "../../../Atoms/Inputs/Password";
+import InputIdentifier from "../../../Atoms/Inputs/Identifier/Index";
+import InputPassword from "../../../Atoms/Inputs/Password/Index";
 
 
 

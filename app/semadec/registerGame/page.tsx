@@ -10,7 +10,7 @@ import ModalSelectCategorys from "../../../src/components/templates/ModalSelectC
 import { ContainerContentPage } from "../../globals"
 import { StylePage } from "./StylePage"
 import { DateForRegistrationProps } from "../../../src/Types/RegisterGame/TypesDateForRegistration"
-import ModalToConfigGame from "../../../src/components/templates/ModalToConfigGame"
+import ModalToConfigGame from "../../../src/components/templates/ModalToConfigGame/Index"
 
 
 export default function Page() {

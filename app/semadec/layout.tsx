@@ -2,7 +2,7 @@
 
 import { ContainerGlobal, ContainerPage } from '../globals';
 
-import SideBarPage from '../../src/components/templates/SidebarPage';
+import SideBarPage from '../../src/components/templates/SidebarPage/Index';
 import SettingsButtons from '../../src/components/Molecules/SettingsButtons/Index';
 
 

@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import TopSegment from "../../Molecules/ModifyUserData/TopSegment";
-import Form from "../../Organisms/ModifyUserData/Form";
+import Form from "../../Organisms/ModifyUserData/Form/Index";
 import { StyledModifyUserData } from "./Styled";
 
 const ModifyUserData = () => {

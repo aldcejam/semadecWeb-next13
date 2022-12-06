@@ -1,4 +1,4 @@
-import Carousel from '../../Organisms/LoginPresentation/Carousel';
+import Carousel from '../../Organisms/LoginPresentation/Carousel/Index';
 import { StyledLoginPresentation } from './Styled';
 
 

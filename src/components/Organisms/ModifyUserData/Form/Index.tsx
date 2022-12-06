@@ -1,5 +1,5 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-import ButtonUpload from "../../../Atoms/Buttons/Upload";
+import ButtonUpload from "../../../Atoms/Buttons/Upload/Index";
 import ModifyBio from "../../../Molecules/ModifyUserData/ModifyBio";
 import ModifyCourse from "../../../Molecules/ModifyUserData/ModifyCourse/Index";
 import ModifyIdentity from "../../../Molecules/ModifyUserData/ModifyIdentity/Index";

@@ -1,7 +1,7 @@
 "use client"
 
-import AuthenticationTemplate from "../../src/components/templates/AuthenticationTemplate"
-import LoginPresentation from "../../src/components/templates/LoginPresentation"
+import AuthenticationTemplate from "../../src/components/templates/AuthenticationTemplate/Index"
+import LoginPresentation from "../../src/components/templates/LoginPresentation/Index"
 import { StyledPage, ContainerLogin } from "./StyledPage"
 
 

@@ -1,3 +1,5 @@
+"use client"
+
 import StyledMenuBurguer from "./Styled"
 
 interface TypesMenuBurguer{

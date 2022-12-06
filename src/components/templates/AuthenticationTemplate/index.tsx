@@ -1,7 +1,9 @@
-/* import OptionsLogin from "../../Molecules/AuthenticationTemplate/OptionsLogin/Index"; */
-/* import Titles from "../../Molecules/AuthenticationTemplate/Titles/Index";
-import Form from "../../Organisms/AuthenticationTemplate/Form/Index";
- */import { StyledAuthenticationTemplate } from "./Styled";
+"use client"
+
+/* import OptionsLogin from "../../Molecules/AuthenticationTemplate/OptionsLogin/Index";
+import Titles from "../../Molecules/AuthenticationTemplate/Titles/Index";
+import Form from "../../Organisms/AuthenticationTemplate/Form/Index"; */
+import { StyledAuthenticationTemplate } from "./Styled";
 
 
 const AuthenticationTemplate = () => {

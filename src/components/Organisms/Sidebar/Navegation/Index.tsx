@@ -1,3 +1,5 @@
+"use client"
+
 import ButtonRedirectProfile from "../../../Molecules/Sidebar/ButtonRedirectProfile/Index"
 import RedirectIcon from "../../../Molecules/Sidebar/RedirectIcon/Index"
 import { StyledNavegation } from "./Styled"

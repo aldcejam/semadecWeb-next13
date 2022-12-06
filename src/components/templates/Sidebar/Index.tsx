@@ -1,14 +1,15 @@
 "use client"
 
+import { useState } from "react";
 import { StyledSidebar } from "./Styled";
 
 
 
 const Sidebar = () => {
-
+    const [menuisative, setmenuisative] = useState(false)
     return (
-        <StyledSidebar menuisactive={"true"}>
-            
+        <StyledSidebar menuisactive={menuisative.toString()}>
+
         </StyledSidebar>
     )
 }

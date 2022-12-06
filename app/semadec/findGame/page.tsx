@@ -1,6 +1,6 @@
 "use client"
 
-import PageTitle from '../../../src/components/Atoms/PageTitle'
+import PageTitle from '../../../src/components/Atoms/PageTitle/Index'
 import { useState } from "react";
 import ListSports from "../../../src/components/templates/ListSports";
 import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";

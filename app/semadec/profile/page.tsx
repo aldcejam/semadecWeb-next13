@@ -1,6 +1,6 @@
 "use client"
 
-import PageTitle from '../../../src/components/Atoms/PageTitle'
+import PageTitle from '../../../src/components/Atoms/PageTitle/Index'
 import { ContainerContentPage } from '../../globals'
 import { StylePage } from './StylePage'
 import { ViewProfile } from '../../../src/components/templates/ViewProfile'

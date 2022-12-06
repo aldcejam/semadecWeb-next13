@@ -4,7 +4,7 @@ import Form from "../../Organisms/AuthenticationTemplate/Form/Index";
 import { StyledAuthenticationTemplate } from "./Styled";
 
 
-const AuthenticationTemplate = () => {
+const AuthenticationModel = () => {
     return (
         <StyledAuthenticationTemplate>
             <div className="content">
@@ -16,4 +16,4 @@ const AuthenticationTemplate = () => {
     )
 }
 
-export default AuthenticationTemplate
+export default AuthenticationModel

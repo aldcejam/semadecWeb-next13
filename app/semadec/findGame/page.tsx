@@ -2,8 +2,8 @@
 
 /* import PageTitle from '../../../src/components/Atoms/PageTitle' */
 import { useState } from "react";
-import ListSports from "../../../src/components/templates/ListSports";
-import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
+/* import ListSports from "../../../src/components/templates/ListSports"; */
+/* import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys"; */
 import { dataForSearchBySportCategoriesProps } from "../../../src/components/templates/ModalSelectCategorys/TypesDataForResearchGame";
 import { ContainerContentPage } from "../../globals";
 import { StylePage } from "./StylePage";
@@ -51,7 +51,7 @@ const Page = () => {
                 <StylePage className="box-page">
                     <div className="container">
                         <div className="decoration" />
-                        <ListSports
+                        {/* <ListSports
                             ToggleModal={ToggleModal}
                             setDataForSearchBySportCategories={setDataForSearchBySportCategories}
                             course={course ? course : "não há curso selecionado no seu perfil"} />
@@ -61,7 +61,7 @@ const Page = () => {
                             data={dataForSearchBySportCategories}
                             setdata={setDataForSearchBySportCategories}
                             Submit={Submit}
-                        />
+                        /> */}
                     </div>
                 </StylePage>
             </ContainerContentPage>

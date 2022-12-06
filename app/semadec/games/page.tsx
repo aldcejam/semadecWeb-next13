@@ -4,7 +4,7 @@ import { useSearchParams } from 'next/navigation'
 /* import PageTitle from '../../../src/components/Atoms/PageTitle' */
 import { ContainerContentPage } from '../../globals'
 import { StylePage } from './StylePage'
-import GameList from '../../../src/components/templates/GameList'
+/* import GameList from '../../../src/components/templates/GameList' */
 
 
 const Page = () => {
@@ -39,9 +39,9 @@ const Page = () => {
                     <div className="border" />
                     <div className="content">
                         <h2>{categoryGenre}</h2>
-                        {ListWeekday.map((day) => (
+                        {/* {ListWeekday.map((day) => (
                             <GameList key={day} day={day} />
-                        ))}
+                        ))} */}
                     </div>
                 </StylePage>
             </ContainerContentPage>

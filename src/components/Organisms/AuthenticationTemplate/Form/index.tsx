@@ -1,7 +1,7 @@
 import { StyledForm } from "./Styled"
 import { SubmitHandler, useForm } from "react-hook-form"
-import InputIdentifier from "../../../Atoms/Inputs/Identifier/Index";
-import InputPassword from "../../../Atoms/Inputs/Password/Index";
+/* import InputIdentifier from "../../../Atoms/Inputs/Identifier/Index";
+import InputPassword from "../../../Atoms/Inputs/Password/Index"; */
 
 
 
@@ -22,7 +22,7 @@ const Form = () => {
         <StyledForm onSubmit={handleSubmit(onSubmit)}>
 
             <div className="input-password">
-                <InputIdentifier
+                {/* <InputIdentifier
                     label="Identificador"
                     register={register}
                     error={errors.identifier}
@@ -32,7 +32,7 @@ const Form = () => {
                     register={register}
                     error={errors.password}
 
-                />
+                /> */}
             </div>
             <input className="submit" type="submit" value={"Entrar"} />
 

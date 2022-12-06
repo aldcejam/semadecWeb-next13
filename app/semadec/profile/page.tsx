@@ -8,9 +8,6 @@ import ModifyUserData from '../../../src/components/templates/ModifyUserData'
 
 
 const Page = () => {
-
-
-
     return (
         <>
             <PageTitle title={"Perfil"}

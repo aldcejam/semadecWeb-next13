@@ -1,5 +1,6 @@
 "use client"
 
+import PageTitle from '../../../src/components/Atoms/PageTitle'
 import { useState } from "react";
 import ListSports from "../../../src/components/templates/ListSports";
 import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
@@ -7,8 +8,6 @@ import { dataForSearchBySportCategoriesProps } from "../../../src/components/tem
 import { ContainerContentPage } from "../../globals";
 import { StylePage } from "./StylePage";
 import { useSearchParams } from 'next/navigation'
-import PageTitle from "../../../src/components/Atoms/PageTitle";
-
 
 const Page = ()=>{
 

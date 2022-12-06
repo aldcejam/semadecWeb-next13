@@ -2,8 +2,8 @@
 
 import PageTitle from '../../../src/components/Atoms/PageTitle/Index'
 import { useState } from "react";
-import ListSports from "../../../src/components/templates/ListSports";
-import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys";
+import ListSports from "../../../src/components/templates/ListSports/Index";
+import ModalSelectCategorys from "../../../src/components/templates/ModalSelectCategorys/Index";
 import { dataForSearchBySportCategoriesProps } from "../../../src/components/templates/ModalSelectCategorys/TypesDataForResearchGame";
 import { ContainerContentPage } from "../../globals";
 import { StylePage } from "./StylePage";

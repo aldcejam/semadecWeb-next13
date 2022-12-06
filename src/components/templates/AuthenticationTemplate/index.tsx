@@ -1,6 +1,6 @@
 import OptionsLogin from "../../Molecules/AuthenticationModel/OptionsLogin/Index";
 import Titles from "../../Molecules/AuthenticationModel/Titles/Index";
-import Form from "../../Organisms/AuthenticationTemplate/Form/Index";
+import Form from "../../Organisms/AuthenticationModel/Form/Index";
 import { StyledAuthenticationTemplate } from "./Styled";
 
 

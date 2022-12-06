@@ -3,6 +3,7 @@
 import { useState } from "react";
 import MenuBurguer from "../../Atoms/MenuBurguer/Index";
 import RedirectIcon from "../../Molecules/Sidebar/RedirectIcon/Index";
+import Navegation from "../../Organisms/Sidebar/Navegation/Index";
 import { StyledSidebar } from "./Styled";
 
 
@@ -19,6 +20,7 @@ const Sidebar = () => {
                 text="Home"
                 alt="icone de redirecionamento"
                 />
+                <Navegation />
             </div> 
         </StyledSidebar>
     )

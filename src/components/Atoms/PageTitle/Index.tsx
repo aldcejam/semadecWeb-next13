@@ -1,3 +1,5 @@
+"use client"
+
 import { StyledPageTitle } from "./Styled";
 
 type TypesPageTitle = {

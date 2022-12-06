@@ -1,7 +1,5 @@
 import { styled } from "@mui/material/styles";
 
-
-
 export const ContainerContentPage = styled("div")`
   position: relative;
   width: calc(100% + 20px);

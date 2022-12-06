@@ -1,11 +1,11 @@
-import Carousel from '../../Organisms/LoginPresentation/Carousel/Index';
-import { StyledLoginPresentation } from './Styled';
+/* import Carousel from '../../Organisms/LoginPresentation/Carousel/Index';
+ */import { StyledLoginPresentation } from './Styled';
 
 
 const LoginPresentation = () => {
     return (
         <StyledLoginPresentation>
-            <Carousel/>
+            {/* <Carousel/> */}
         </StyledLoginPresentation>
     )
 }

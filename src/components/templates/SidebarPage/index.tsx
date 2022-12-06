@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from "react"
 import MenuBurguer from "../../Atoms/MenuBurguer/Index"
 import { StyledSidebarPage } from "./Styled"

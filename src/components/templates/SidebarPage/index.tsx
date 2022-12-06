@@ -7,7 +7,7 @@ import Navegation from "../../Organisms/Sidebar/Navegation/Index";
 import RedirectIcon from "../../Molecules/Sidebar/RedirectIcon/Index";
 
 
-const SideBarPage = () => {
+const SidebarPage = () => {
     const [menuisative, setmenuisative] = useState(false)
 
     return (
@@ -26,4 +26,4 @@ const SideBarPage = () => {
     )
 }
 
-export default SideBarPage;
+export default SidebarPage;

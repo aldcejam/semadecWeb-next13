@@ -1,4 +1,4 @@
-import OptionsLogin from "../../Molecules/AuthenticationTemplate/OptionsLogin/Index";
+/* import OptionsLogin from "../../Molecules/AuthenticationTemplate/OptionsLogin/Index"; */
 import Titles from "../../Molecules/AuthenticationTemplate/Titles/Index";
 import Form from "../../Organisms/AuthenticationTemplate/Form/Index";
 import { StyledAuthenticationTemplate } from "./Styled";
@@ -10,7 +10,7 @@ const AuthenticationTemplate = () => {
             <div className="content">
                 <Titles />
                 <Form />
-                <OptionsLogin />
+                {/* <OptionsLogin /> */}
             </div>
         </StyledAuthenticationTemplate>
     )

@@ -1,6 +1,6 @@
 import {styled} from "@mui/material/styles";
 
-export const StyledInputRedirectPerfil = styled("div")`
+export const StyledButtonRedirectPerfil = styled("div")`
 
         position: relative;
         width: 36px;

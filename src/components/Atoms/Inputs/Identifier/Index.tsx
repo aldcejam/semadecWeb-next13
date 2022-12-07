@@ -1,6 +1,6 @@
 import { FormControl, InputAdornment, InputLabel, OutlinedInput } from "@mui/material"
 import { UseFormRegister } from "react-hook-form"
-import { DefaultStyledInput } from "./DefaultStyledInput"
+import { DefaultStyledInput } from "./DefaultStyledInput";
 import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 
 type InputIdentifierProps = {

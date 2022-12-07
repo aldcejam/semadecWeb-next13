@@ -1,6 +1,6 @@
 import { SubmitHandler, useForm } from "react-hook-form";
-/* import ButtonUpload from "../../../Atoms/Buttons/Upload/Index";
- */import ModifyBio from "../../../Molecules/ModifyUserData/ModifyBio/Index";
+import InputUpload from "../../../Atoms/Inputs/Upload/Index"
+import ModifyBio from "../../../Molecules/ModifyUserData/ModifyBio/Index";
 import ModifyCourse from "../../../Molecules/ModifyUserData/ModifyCourse/Index";
 import ModifyIdentity from "../../../Molecules/ModifyUserData/ModifyIdentity/Index";
 import ModifySocialMidias from "../../../Molecules/ModifyUserData/ModifySocialMidias/Index";
@@ -44,9 +44,9 @@ const Form = () => {
             <div className="course">
                 <ModifyCourse course={course} errors={errors} register={register} />
             </div>
-            {/* <div className="upload-image">
-                <ButtonUpload />
-            </div> */}
+            <div className="upload-image">
+                <InputUpload />
+            </div>
             <div className="bio">
                 <ModifyBio errors={errors} register={register} />
             </div>

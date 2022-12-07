@@ -1,17 +1,14 @@
 "use client"
 
-import {
-    StyledButtonUpload,
-    ThumbsContainer,
-} from "./Styled";
+import Image from "next/image";
 import {useState } from "react";
 import { useDropzone } from "react-dropzone";
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import { uniqueId } from "lodash";
+import {StyledInputUpload,ThumbsContainer} from "./Styled";
 import { CircularProgressbar } from "react-circular-progressbar";
-import Image from "next/image";
+import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
-const ButtonUpload = () => {
+const InputUpload = () => {
     const [files, setFiles] = useState([]);
 
     const { getRootProps, getInputProps, isDragAccept, isDragReject } =
@@ -56,7 +53,7 @@ const ButtonUpload = () => {
     };
 
     return (
-        <StyledButtonUpload
+        <StyledInputUpload
             dragaccept={isDragAccept.toString()}
             dragreject={isDragReject.toString()}
         >
@@ -102,8 +99,8 @@ const ButtonUpload = () => {
                     ))
                 }
             </ThumbsContainer>
-        </StyledButtonUpload>
+        </StyledInputUpload>
     );
 };
 
-export default ButtonUpload;
+export default InputUpload;

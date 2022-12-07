@@ -1,11 +1,11 @@
 import { styled } from "@mui/material/styles";
 
-type TypesStyledButtonUpload = {
+type TypesStyledInputUpload = {
   dragaccept: "true" | "false";
   dragreject: "true" | "false";
 };
 
-export const StyledButtonUpload = styled("div")<TypesStyledButtonUpload>(
+export const StyledInputUpload = styled("div")<TypesStyledInputUpload>(
   ({ dragaccept, dragreject, ...props }) => `
   border: 2px solid ${
     dragaccept == "true"

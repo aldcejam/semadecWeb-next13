@@ -2,7 +2,7 @@ import { FormControl, IconButton, InputAdornment, InputLabel, OutlinedInput } fr
 import { useState } from "react"
 import { UseFormRegister } from "react-hook-form"
 import { Visibility, VisibilityOff } from "@mui/icons-material";
-import { DefaultStyledInput } from "../DefaultStyledInput";
+import { DefaultStyledInput } from "../Identifier/DefaultStyledInput";
 
 
 type InputPasswordProps = {

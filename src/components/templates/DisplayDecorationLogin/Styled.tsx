@@ -1,6 +1,6 @@
 import { styled } from "@mui/material";
 
-export const StyledLoginPresentation = styled("div")`
+export const StyledDisplayDecorationLogin = styled("div")`
     flex-basis: 45%; 
     display: grid;
     align-items: center;

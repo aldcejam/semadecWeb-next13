@@ -1,6 +1,6 @@
 import { styled } from "@mui/material";
 
-export const StyledCarousel = styled("div")`
+export const StyledDisplayDecorationLogin = styled("div")`
   .splide {
     margin-top: -100px;
     .splide__list {

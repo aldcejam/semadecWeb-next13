@@ -1,5 +1,5 @@
-/* import ButtonLoginGoogle from "../../../Atoms/Buttons/LoginGoogle/Index"
-import ButtonLoginSuap from "../../../Atoms/Buttons/LoginSuap/Index" */
+import ButtonLoginGoogle from "../../../Atoms/Buttons/LoginGoogle/Index"
+import ButtonLoginSuap from "../../../Atoms/Buttons/LoginSuap/Index"
 import { StyledOptionsLogin } from "./Styled"
 
 const OptionsLogin = () => {
@@ -9,8 +9,8 @@ const OptionsLogin = () => {
                 <p>Conecte-se com:</p>
             </div>
             <div className="account-options">
-{/*                 <ButtonLoginGoogle/>
-                <ButtonLoginSuap/> */}
+                <ButtonLoginGoogle/>
+                <ButtonLoginSuap/>
             </div>
         </StyledOptionsLogin>
     )
